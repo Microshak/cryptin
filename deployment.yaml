@@ -1,0 +1,7 @@
+spec:
+  containers:
+  - name: cryptin
+    image: microshak/cryptin:latest
+    envFrom:
+      - configMapRef:
+          name: cryptin-config
