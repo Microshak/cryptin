@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: cryptinCM
+  name: cryptin-config
   labels:
     app: cryptin
 data:
